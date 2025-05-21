@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(128, 0, 128); /* Purple background */
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+.logo img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.countdown {
+  margin-top: 40px;
+  display: inline-block;
+  border: 2px solid white;
+  padding: 20px 40px;
+  font-size: 1.1rem;
+}
+
+.countdown div {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.countdown span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
